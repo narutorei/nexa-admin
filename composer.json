@@ -9,10 +9,8 @@
     "homepage": "http://framework.zend.com/",
     "require": {
         "php": ">=5.3.3",
-        "zendframework/zendframework": "2.*"
-    }
-    "require-dev": {
-	"php": ">=5.4.7",
-        "phpunit/phpunit": "3.7.*"
+        "zendframework/zendframework": "2.*",
+        "doctrine/doctrine-orm-module": "dev-master",
+        "hounddog/doctrine-data-fixture-module": "dev-zf2_release"
     }
 }

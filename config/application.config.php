@@ -2,7 +2,12 @@
 return array(
     'modules' => array(
         'Application',
-        'Login'
+        'DoctrineModule',
+        'DoctrineORMModule',
+        'DoctrineDataFixtureModule',
+        'Login',
+        'Base',
+        'User'
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(
